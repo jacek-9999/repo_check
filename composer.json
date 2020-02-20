@@ -1,0 +1,19 @@
+{
+    "name": "jacek-9999/repo_check",
+    "description": "Show branch and last sha1 from git project in simple, console based php app.",
+    "type": "library",
+    "license": "WTFPL",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RepoCheck\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3@dev",
+        "phpunit/phpunit": "^8"
+    }
+}

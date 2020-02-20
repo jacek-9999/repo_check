@@ -1,0 +1,7 @@
+.idea
+.vendor
+Vagrantfile
+.vagrant
+composer.lock
+bootstrap.sh
+vendor
